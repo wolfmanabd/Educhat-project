@@ -60,7 +60,7 @@ body {
 
 .navbar li {
     margin-bottom: 1.5rem;
-    width: 90%;
+    width: 100%;
 }
 
 .nav-list {
@@ -107,13 +107,20 @@ body {
         height: 100%;
         background-color: #fff;
         box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 }
 
 @media (max-width: 61.25em) {
     .navbar {
         width: 20%;
+    }
+}
+
+@media (max-width: 28.75em) {
+    .navbar {
+        width: 22%;
+        font-size: 1.3rem;
     }
 }
 
@@ -135,14 +142,21 @@ body {
         margin-left: 20rem;
         /* margin-right: 0; */
         padding: 2rem;
-        width: 79%;
+        width: 84%;
     }
 }
 
 @media (max-width: 61.25em) {
     .main {
-        width: 77%;
-        margin-left: 20rem;
+        width: 80%;
+        margin-left: 22.5rem;
+    }
+}
+
+@media (max-width: 28.75em) {
+    .main {
+        width: 130%;
+        margin-left: 19.5rem;
     }
 }
 
@@ -168,7 +182,13 @@ body {
 
 @media (max-width: 75em) {
     .search-bar {
-        width: 100%;
+        width: 103%;
+    }
+}
+
+@media (max-width: 61.25em) {
+    .search-bar {
+        width: 105%;
     }
 }
 
@@ -232,13 +252,30 @@ header {
     }
 
     .items {
-        width: 90%;
+        width: 100%;
     }
 
     .item-list {
-        width: 19rem;
+        width: 22rem;
     }
 }
+
+@media (max-width: 61.25em)  {
+    .items {
+        width: 100%;
+    }
+
+    .item-list {
+        width: 18rem;
+    }
+}
+
+@media (max-width: 28.75em) {
+    .item-list {
+        width: 14rem;
+    }
+}
+
 
 /* STUDENT DATA */
 
@@ -254,6 +291,12 @@ header {
 @media (max-width: 75em) {
     .student-data-section {
         width: 100%;
+    }
+}
+
+@media (max-width: 28.75em) {
+    header {
+        font-size: 2.5rem;
     }
 }
 
@@ -302,8 +345,8 @@ header {
 
 @media (max-width: 75em)  {
     .container {
-        width: 90%;
-        font-size: 1.1rem;
+        width: 100%;
+        font-size: 1.4rem;
     }
 
     .container-head p {
@@ -311,13 +354,38 @@ header {
     }
 
     .container-head input {
-        width: 40rem;
+        width: 60rem;
         margin-left: 5rem;
     }
 
     .container-head .btn {
         width: 15rem;
         padding: 1rem;
+    }
+}
+
+@media (max-width: 61.25em) {
+    .container {
+        width: 103%;
+        font-size: 1.2rem;
+    }
+
+    .container-head input {
+        width: 40rem;
+    }
+}
+
+@media (max-width: 28.75em) {
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+    .container-head input {
+        width: 30rem;
+    }
+
+    .container-head .btn {
+        width: 12rem;
     }
 }
 
@@ -451,13 +519,26 @@ figcaption span {
     }
 
     .row-head .box {
-        margin-left: 1.6rem;
+        margin-left: 1.5rem;
     }
 
     .box + p {
         margin-left: 0;
     }
 
+}
+
+@media (max-width: 28.75em) {
+    .box {
+        display: none;
+    }
+
+    .row {
+        margin-bottom: 4rem;
+        font-size: 1.2rem;
+        padding: 2rem;
+        margin: 0;
+    }
 }
 
 /* FOOTER SECTION */
@@ -481,6 +562,21 @@ footer {
         bottom: -35rem;
         left: 0;
         margin-left: 20.5rem;
-        width: 76.9%;
+        width: 83%;
+    }
+}
+
+@media (max-width: 75em) {
+    footer {
+        margin-left: 22.5rem;
+        width: 82%;
+    }
+}
+
+@media (max-width: 28.75em) {
+    footer {
+        bottom: -60rem;
+        margin-left: 20.5rem;
+        width: 125%;
     }
 }
